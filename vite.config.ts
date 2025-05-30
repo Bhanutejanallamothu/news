@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/newsaggregator110/", // 💥 this is critical for GitHub Pages
+  base: "/news/", // 💥 this is critical for GitHub Pages
   server: {
     host: "::",
     port: 8080,
