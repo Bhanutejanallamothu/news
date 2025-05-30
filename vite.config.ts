@@ -4,14 +4,14 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/news/", // 💥 this is critical for GitHub Pages
-  server: {
+  base: "/news/", 
+    server: {
     host: "::",
     port: 8080,
   },
   plugins: [
     react(),
-    // mode === 'development' && componentTagger(),
+    
   ].filter(Boolean),
   resolve: {
     alias: {
